@@ -63,20 +63,17 @@ This project covers the steps required to create an EC2 instance on AWS, configu
    - Example command to describe instances:
      ```sh
      aws ec2 describe-instances
-     
      ```
 
-       ## Example
-   Here is an example command to connect to your EC2 instance:
+## Example
+Here is an example command to connect to your EC2 instance:
 
      ```sh
-   ssh -i "my-key-pair.pem" ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com
+     ssh -i "my-key-pair.pem" ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com
+     ```
 
-   - ![Connect to Instance](images/connect-to-instance.png
-
-   )
-
-   - ![EC2 Command Line Interface](images/Ec2-command-Line-Interface.png)
+  - ![Connect to Instance](images/connect-to-instance.png)
+  - ![EC2 Command Line Interface](images/Ec2-command-Line-Interface.png)
 
 
 
