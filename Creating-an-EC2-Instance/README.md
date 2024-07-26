@@ -54,7 +54,12 @@ This project covers the steps required to create an EC2 instance on AWS, configu
      ```sh
      ssh -i "your-key-pair.pem" ec2-user@your-ec2-instance-public-dns
      ```
-   - Confirm the connection by typing "yes" when prompted.
+
+      - ![Connect to Instance](images/connect-to-instance.png)
+
+
+## Example
+Here is an example command to connect to your EC2 instance:
  
 
 5. **Using AWS CLI to Manage EC2 Instances**
@@ -65,14 +70,14 @@ This project covers the steps required to create an EC2 instance on AWS, configu
      aws ec2 describe-instances
      ```
 
-## Example
-Here is an example command to connect to your EC2 instance:
-
      ```sh
      ssh -i "my-key-pair.pem" ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com
      ```
 
-  - ![Connect to Instance](images/connect-to-instance.png)
+   - Confirm the connection by typing "yes" when prompted.
+
+
+ 
   - ![EC2 Command Line Interface](images/Ec2-command-Line-Interface.png)
 
 
