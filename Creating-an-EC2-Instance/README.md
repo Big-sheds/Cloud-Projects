@@ -31,6 +31,11 @@ This project covers the steps required to create an EC2 instance on AWS, configu
    - Choose an Amazon Machine Image (AMI).
    - Select an instance type (e.g., t2.micro for free tier eligible).
    - Configure instance details.
+   - Create a new key pair or use an existing one.
+   - Download the key pair file (.pem) and keep it safe.
+   - 
+   - ![Create Key Pair](images/Create-Key-Pair.png)
+   - 
    - Add storage.
    - Add tags.
    - Configure security groups (ensure SSH (port 22) is allowed).
@@ -41,10 +46,7 @@ This project covers the steps required to create an EC2 instance on AWS, configu
    
       - ![Review and Launch](images/review-and-launch.png)
 
-3. **Key Pair**
-   - Create a new key pair or use an existing one.
-   - Download the key pair file (.pem) and keep it safe.
-   - ![Create Key Pair](images/Create-Key-Pair.png)
+  
 
 4. **Access the EC2 Instance via SSH**
    - Open your terminal or SSH client.
