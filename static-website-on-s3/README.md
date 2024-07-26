@@ -92,4 +92,7 @@ This project showcases the ability to deploy simple web solutions on AWS, highli
        ]
    }
 
+   
+![Files Uploaded](images/my-static-website-endpoint.png)
+
 
