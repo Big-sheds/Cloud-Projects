@@ -25,7 +25,7 @@ This project covers the steps required to create an EC2 instance on AWS, configu
 2. **Launch an EC2 Instance**
    - Go to the EC2 Dashboard.
 
-    - ![EC2 Dashboard](images/EC2-Dashboard.png)
+   - ![EC2 Dashboard](images/EC2-Dashboard.png)
 
    - Click on "Launch Instance".
    - Choose an Amazon Machine Image (AMI).
