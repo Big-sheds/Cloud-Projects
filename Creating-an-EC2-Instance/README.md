@@ -20,10 +20,13 @@ This project covers the steps required to create an EC2 instance on AWS, configu
 
 1. **Log in to the AWS Management Console**
    - Navigate to the [AWS Management Console](https://aws.amazon.com/console/).
-   - ![AWS Management Console](images/aws-management-console.png)
+   - ![AWS Management Console](images/AWS-management-console.png)
 
 2. **Launch an EC2 Instance**
    - Go to the EC2 Dashboard.
+
+    - ![EC2 Dashboard](images/EC2-Dashboard.png)
+
    - Click on "Launch Instance".
    - Choose an Amazon Machine Image (AMI).
    - Select an instance type (e.g., t2.micro for free tier eligible).
@@ -31,10 +34,12 @@ This project covers the steps required to create an EC2 instance on AWS, configu
    - Add storage.
    - Add tags.
    - Configure security groups (ensure SSH (port 22) is allowed).
+
+    - ![Configure Security Group](images/configure-security-group.png)
+
    - Review and launch.
-   - ![EC2 Dashboard](images/EC2-Dashboard.png)
-   - ![Configure Security Group](images/configure-security-group.png)
-   - ![Review and Launch](images/review-and-launch.png)
+   
+      - ![Review and Launch](images/review-and-launch.png)
 
 3. **Key Pair**
    - Create a new key pair or use an existing one.
@@ -48,14 +53,7 @@ This project covers the steps required to create an EC2 instance on AWS, configu
      ssh -i "your-key-pair.pem" ec2-user@your-ec2-instance-public-dns
      ```
    - Confirm the connection by typing "yes" when prompted.
-   - ![Connect to Instance](images/connect-to-instance.png)
-   
-   ## Example
-   Here is an example command to connect to your EC2 instance:
-     
-     ```sh
-   ssh -i "my-key-pair.pem" ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com
-
+ 
 
 5. **Using AWS CLI to Manage EC2 Instances**
    - Install and configure AWS CLI.
@@ -63,7 +61,19 @@ This project covers the steps required to create an EC2 instance on AWS, configu
    - Example command to describe instances:
      ```sh
      aws ec2 describe-instances
+     
      ```
+
+       ## Example
+   Here is an example command to connect to your EC2 instance:
+
+     ```sh
+   ssh -i "my-key-pair.pem" ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com
+
+   - ![Connect to Instance](images/connect-to-instance.png
+
+   )
+
    - ![EC2 Command Line Interface](images/Ec2-command-Line-Interface.png)
 
 
